@@ -1,0 +1,36 @@
+/*====Tags====*/
+body{
+    background-color:rgb(255, 255, 255);
+}
+hr{
+    color: rgb(0, 161, 147);
+    margin: 0;
+    border-top: 3px;
+    border-style: solid none none none;
+    
+}
+
+
+/*====Class Selectors====*/
+.headerFont{
+    margin-bottom: 0;
+    font-weight: 800;
+    font-family: Arial;
+    color: rgb(0, 161, 147);
+}
+
+/*====ID Selectors====*/
+#headerTable{
+    font-family: sans-serif;
+    color: aliceblue;
+    border-radius: 10px;
+    border-collapse: separate;
+    width: 100%;
+    background-color: rgb(0, 161, 147);
+}
+
+#profileImg{
+    border-radius: 50%;
+    width: 125px;
+    height: 126px;
+}
