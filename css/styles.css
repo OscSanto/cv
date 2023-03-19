@@ -3,30 +3,38 @@ body{
     background-color:rgb(255, 255, 255);
 }
 hr{
-    color: rgb(0, 161, 147);
+    color: rgba(0, 126, 116, 0.636);
     margin: 0;
-    border-top: 3px;
+    border-top: 4px;
     border-style: solid none none none;
     
 }
 
 
 /*====Class Selectors====*/
-.headerFont{
-    margin-bottom: 0;
-    font-weight: 800;
-    font-family: Arial;
-    color: rgb(0, 161, 147);
+
+.detailStyles{
+    font-size: 10px;
 }
 
 /*====ID Selectors====*/
-#headerTable{
+.headerTable{
+    display: block; /*display block is similar to content-parent instead of content-wrap*/
     font-family: sans-serif;
     color: aliceblue;
-    border-radius: 10px;
-    border-collapse: separate;
-    width: 100%;
+    /* border-radius: 10px; */
+    border-radius:  0px 0px 20px 20px;
     background-color: rgb(0, 161, 147);
+}
+
+.summaryTable{
+    
+    margin-left: 15px;
+
+    /* display block is similar to content-parent instead of content-wrap */
+    /* border-radius: 10px; */
+        vertical-align: bottom;
+
 }
 
 #profileImg{
